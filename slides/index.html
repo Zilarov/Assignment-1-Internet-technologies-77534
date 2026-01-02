@@ -95,9 +95,9 @@ Example cities (template):
         </textarea>
       </section>
 
-      <!-- HORIZONTAL SLIDE 5 (CODE BLOCK) -->
-      <section data-markdown>
-        <textarea data-template>
+       <!-- HORIZONTAL SLIDE 5 (CODE BLOCK) -->
+       <section data-markdown>
+       <textarea data-template>
 ## Reveal.js Features (Code Block)
 
 ```js
@@ -106,3 +106,43 @@ Reveal.initialize({
   slideNumber: true,
   plugins: [ RevealMarkdown, RevealHighlight ]
 });
+
+        <!-- HORIZONTAL SLIDE 6 (CLOSING) -->
+        <section data-markdown>
+        <textarea data-template>
+# Thank You ⚽
+
+**AFCON Morocco 2025 – Reveal.js Presentation**
+
+Assignment 2 completed successfully.
+
+Included:
+- Markdown formatting
+- Images
+- Non-default theme
+- Horizontal & vertical navigation
+
+End.
+  </textarea>
+</section>
+
+</div> <!-- END slides -->
+</div> <!-- END reveal -->
+
+<!-- Reveal core JS -->
+<script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+
+<!-- Reveal plugins -->
+<script src="https://unpkg.com/reveal.js/plugin/markdown/markdown.js"></script>
+<script src="https://unpkg.com/reveal.js/plugin/highlight/highlight.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    plugins: [ RevealMarkdown, RevealHighlight ]
+  });
+</script>
+
+</body>
+</html>
