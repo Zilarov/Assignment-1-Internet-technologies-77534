@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AFCON Morocco 2025 - Reveal.js</title>
 
-  <!-- Reveal core CSS -->
+  <!-- Reveal.js core CSS -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+
   <!-- Non-default theme (league) -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/league.css" id="theme">
 
-  <!-- Optional: code highlight theme -->
+  <!-- Code highlight theme -->
   <link rel="stylesheet" href="https://unpkg.com/reveal.js/plugin/highlight/monokai.css">
 </head>
 
@@ -30,48 +31,49 @@
 - Non-default theme ✅
 - Horizontal + Vertical navigation ✅
 
-➡ Use **→** (next) and **↓** (vertical)
+➡ Use **→ / ←** and **↓ / ↑**
         </textarea>
       </section>
 
-      <!-- HORIZONTAL SLIDE 2 with VERTICAL slides -->
+      <!-- HORIZONTAL SLIDE 2 (WITH VERTICAL SLIDES) -->
       <section>
-        <!-- VERTICAL 2.1 -->
+
+        <!-- VERTICAL SLIDE 2.1 -->
         <section data-markdown>
           <textarea data-template>
-## Tournament Overview (Vertical 1)
+## Tournament Overview
 
 - Competition: **Africa Cup of Nations**
-- Host: **Morocco**
-- This is a demo presentation for Assignment 2.
+- Host Country: **Morocco**
+- Organized by CAF
 
-➡ Press **↓** for next vertical slide
+⬇ Press **DOWN** for next vertical slide
           </textarea>
         </section>
 
-        <!-- VERTICAL 2.2 -->
+        <!-- VERTICAL SLIDE 2.2 -->
         <section data-markdown>
           <textarea data-template>
-## Why Morocco? (Vertical 2)
+## Why Morocco?
 
-**Highlights**
-- Culture & food
-- Football atmosphere
+**Reasons**
+- Strong football culture
 - Modern stadiums
+- Rich history and tourism
 
-> Sample content (you can change it anytime).
+> Example content for university assignment.
           </textarea>
         </section>
+
       </section>
 
-      <!-- HORIZONTAL SLIDE 3 (IMAGE + Markdown) -->
+      <!-- HORIZONTAL SLIDE 3 (IMAGE SLIDE) -->
       <section data-markdown>
         <textarea data-template>
-## Host Cities (Image example)
+## Host Cities
 
 ![Flag of Morocco](https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg)
 
-Example host cities:
 - Casablanca
 - Rabat
 - Marrakech
@@ -79,30 +81,29 @@ Example host cities:
         </textarea>
       </section>
 
-      <!-- HORIZONTAL SLIDE 4 (Markdown table) -->
+      <!-- HORIZONTAL SLIDE 4 (TABLE SLIDE) -->
       <section data-markdown>
         <textarea data-template>
 ## Sample Match Schedule
 
-| Day | Match | Stadium |
+| Day | Match | City |
 |---|---|---|
 | Day 1 | Morocco vs Mali | Casablanca |
 | Day 2 | Algeria vs Sudan | Rabat |
 | Day 3 | Senegal vs Benin | Marrakech |
 
-*(Template schedule for demo.)*
+*(Schedule is a template for demonstration.)*
         </textarea>
       </section>
 
-      <!-- HORIZONTAL SLIDE 5 (Markdown + code block) -->
+      <!-- HORIZONTAL SLIDE 5 (CODE BLOCK) -->
       <section data-markdown>
         <textarea data-template>
-## Reveal.js Features (Markdown + Code)
-
-Example initialization:
+## Reveal.js Configuration Example
 
 ```js
 Reveal.initialize({
   hash: true,
-  slideNumber: true
+  slideNumber: true,
+  plugins: [ RevealMarkdown, RevealHighlight ]
 });
